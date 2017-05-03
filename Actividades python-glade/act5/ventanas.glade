@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="ventana1">
+    <property name="can_focus">False</property>
+    <signal name="destroy" handler="terminar_app" swapped="no"/>
+    <child>
+      <object class="GtkButton" id="boton1">
+        <property name="label" translatable="yes">Pasar a la ventana 2</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="evento_pasarventana2" swapped="no"/>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="ventana2">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkButton" id="boton2">
+        <property name="label" translatable="yes">Pasar a la ventana 3</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="evento_pasarventana3" swapped="no"/>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="ventana3">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkButton" id="boton3">
+        <property name="label" translatable="yes">Pasar a la ventana 1</property>
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <signal name="clicked" handler="evento_pasarventana1" swapped="no"/>
+      </object>
+    </child>
+  </object>
+</interface>
