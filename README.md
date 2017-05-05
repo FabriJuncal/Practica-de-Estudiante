@@ -1,3 +1,3 @@
-### Practica-de-Estudiante
-##aprendiendo a programar
+###Practica-de-Estudiante
+##Aprendiendo a programa
 #**PYTHON**
