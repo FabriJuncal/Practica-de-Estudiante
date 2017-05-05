@@ -1,5 +1,5 @@
-##Practica-de-Estudiante
+## Practica-de-Estudiante
 
-###Aprendiendo a programa
+### Aprendiendo a programa
 
-#**PYTHON**
+# **PYTHON**
