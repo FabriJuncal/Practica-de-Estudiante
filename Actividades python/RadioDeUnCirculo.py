@@ -1,4 +1,8 @@
 
+print ('\n''\n'"""********************
+RADIO DE UN CIRCULO
+********************"""'\n')
+
 def radio (respuesta):
 
     while respuesta=="si":
@@ -12,11 +16,11 @@ def radio (respuesta):
         while respuesta=="si":
             radio(respuesta)
         else:
-            exit()
+            exit
 
     else :
         exit()
 
-respuesta= str(input("¿Ingresar radio del circulo?"'\n'))
+respuesta= str(input('\n'"¿Ingresar radio del circulo?"'\n'))
 
 radio(respuesta)
