@@ -1,2 +1,2 @@
 # Practica-de-Estudiante
-aprendiendo a programagar
+aprendiendo a programar
