@@ -1,4 +1,4 @@
-# Practica-de-Estudiante
+# Practica de Estudiante
 
 ## Aprendiendo a programar
 
