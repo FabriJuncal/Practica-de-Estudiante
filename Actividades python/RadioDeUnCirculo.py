@@ -20,7 +20,3 @@ def radio (respuesta):
 respuesta= str(input("¿Ingresar radio del circulo?"'\n'))
 
 radio(respuesta)
-
-
-
-radio(respuesta)
