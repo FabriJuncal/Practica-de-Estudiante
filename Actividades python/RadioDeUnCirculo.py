@@ -12,7 +12,7 @@ def radio (respuesta):
         while respuesta=="si":
             radio(respuesta)
         else:
-            exit
+            exit()
 
     else :
         exit()
