@@ -6,12 +6,12 @@ RADIO DE UN CIRCULO
 def radio (respuesta):
 
     while respuesta=="si":
-        r= int(input("ingrese el radio de su circulo: "'\n'))
+        r= int(input('\n'"ingrese el radio de su circulo: "'\n''\n'))
         pi=3.14
 
-        print("La circunferencia es: ",pi*r**2 )
+        print('\n'"La circunferencia es: ",pi*r**2,'\n' )
 
-        respuesta= str(input("¿Desea seguir calculando?"'\n'))
+        respuesta= str(input('\n'"¿Desea seguir calculando?"'\n''\n'))
 
         while respuesta=="si":
             radio(respuesta)
@@ -21,6 +21,6 @@ def radio (respuesta):
     else :
         exit()
 
-respuesta= str(input('\n'"¿Ingresar radio del circulo?"'\n'))
+respuesta= str(input('\n'"¿Ingresar radio del circulo?"'\n''\n'))
 
 radio(respuesta)
