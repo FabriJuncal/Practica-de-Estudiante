@@ -85,8 +85,7 @@ class libro():
     print("Año de publicacion: " + self.listalib[3])
     print("Género: " + self.listalib[4])
     print("Color de portada: " + self.listalib[5])
-    print(self.listaAutores)
-    print(self.listalib)
+    
     return
   
   def imprimir_LS_LIB(self):
@@ -212,10 +211,7 @@ class libro():
         print("Año de publicacion: " + aniopublicacion)
         print("Género: " + genero)
         print("Color de portada: " + color)
-        print(self.listaAutores)
-        print(self.lislisAUT)
-        print(self.listalib)
-        print(self.lislisLIB)
+        
         m.pregunta6()
         
     if (len(self.lislisLIB)) == (len(self.lislisLIB)) and nombre_libro != self.lislisLIB[i][0]:
