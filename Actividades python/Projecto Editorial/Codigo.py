@@ -127,7 +127,7 @@ class libro():
         while True:
 
             VLibro= (raw_input(" "+str(j+1)+") "))
-            print("\t"+"|"+"\t")
+            
              
             if VLibro == "fin" or VLibro == "Fin" or VLibro == "FIN" :
               E = e.imprimirEDI()
@@ -143,7 +143,26 @@ class libro():
               self.totalV = 0
               return
             elif VLibro !="":
-                break
+              for i in range(len(self.lislisLIB)):
+              
+                if VLibro == self.lislisLIB[i][0]:       
+                  print("\t" + "|"+"\t" + self.lislisLIB[i][1]+ "$")
+                  self.valorLIB.append(self.lislisLIB[i][1])
+                  self.totalV = int(self.totalV) + int(self.lislisLIB[i][1])     
+                  print"----------------------------------"   
+                  print("TOTAL: " + "\t" + "|"+"\t" + str(self.totalV) + "$") 
+                  self.lisLIBven.append(VLibro)
+
+
+                if len(self.lislisLIB) == len(self.lislisLIB) and VLibro != self.lislisLIB[i][0]:  
+                  print("\t" + "|"+"\t" + "*NO EXISTE*")                  
+                  print"----------------------------------"   
+                  print("TOTAL: " + "\t" + "|"+"\t" + str(self.totalV) + "$")  
+                  j=int(j)-1
+
+              
+              j=int(j)+1
+              
       elif VLibro == "fin" or VLibro == "Fin" or VLibro == "FIN" :
         E = e.imprimirEDI()
         C = v.imprimirCLI() 
@@ -170,11 +189,11 @@ class libro():
             self.lisLIBven.append(VLibro)
           
                     
-          elif len(self.lislisLIB) == len(self.lislisLIB) and VLibro != self.lislisLIB[i][0]:  
-            print("\t" + "|"+"\t" + "*NO EXISTE*")                  
-            print"----------------------------------"   
-            print("TOTAL: " + "\t" + "|"+"\t" + str(self.totalV) + "$")  
-            j=int(j)-1
+        if len(self.lislisLIB) == len(self.lislisLIB) and VLibro != self.lislisLIB[i][0]:  
+          print("\t" + "|"+"\t" + "*NO EXISTE*")                  
+          print"----------------------------------"   
+          print("TOTAL: " + "\t" + "|"+"\t" + str(self.totalV) + "$")  
+          j=int(j)-1
     
       j=int(j)+1 
   
@@ -211,7 +230,7 @@ class libro():
         print("Año de publicacion: " + aniopublicacion)
         print("Género: " + genero)
         print("Color de portada: " + color)
-        
+       
         m.pregunta6()
         
     if (len(self.lislisLIB)) == (len(self.lislisLIB)) and nombre_libro != self.lislisLIB[i][0]:
