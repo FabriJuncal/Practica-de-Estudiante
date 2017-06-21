@@ -1,4 +1,4 @@
 # **Practica de Estudiante**
 ## *Aprendiendo a programar*
 
-![Una imagen cualquiera](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
+![Una imagen cualquiera](https://bbvaopen4u.com/sites/default/files/img/embed/article/aprender_a_programar.jpg)
