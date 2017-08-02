@@ -76,10 +76,6 @@ class venta():
           print('\t''\t'"    --------------------------------")
           i=int(i)
 
-        #TotalVenta = 0
-        #for i in range (len(self.lista_ventas[j][5])):
-            #TotalVenta = TotalVenta + int(self.lista_ventas[j][5][i])
-
         print('\n''\n'"  Total de la venta: " + str(self.lista_ventas[j][6]) + "$"'\n')
         print("  En caja: " + str(self.lista_ventas[j][7]) + '\n')
         print("**********************************************************")
