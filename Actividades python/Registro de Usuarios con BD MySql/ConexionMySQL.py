@@ -21,9 +21,9 @@ cursor = conexion.cursor()# Creamos el cursor
                           # consultas
 while opcion != "4":
     print ("""
-                ***************************************
-                Conexion de Prueba a una Base de Datos
-                ***************************************
+                ****************************************
+                 Conexion de Prueba a una Base de Datos
+                ****************************************
     """)
 
 
@@ -47,7 +47,7 @@ while opcion != "4":
         Edad = int(raw_input('\t'"Edad: "))
 
         consulta = "INSERT INTO usuarios (id_usuarios, Nombres, Apellidos, Edad) VALUES ('%i','%s','%s','%i') " %(id_codigo, Nombres, Apellidos, Edad)
-        mensaje = '\n'"     *** Se ha guardado con exito el registro ***"
+        mensaje = '\n'"         *** El registro se ha guardado con exito ***"
 
     elif opcion == "2":
         print ("""
@@ -58,7 +58,7 @@ while opcion != "4":
         
         id_codigo = int(raw_input('\t''\n'"Ingrese el ID :"))
         consulta = "DELETE FROM usuarios WHERE id_usuarios = '%i'" %(id_codigo)
-        mensaje = '\n'"     *** Se ha eliminado el registro de la base de datos ***"
+        mensaje = '\n'"         *** El registro se ha eliminado con exito ***"
 
     elif opcion == "3":
         print ("""
@@ -80,6 +80,6 @@ while opcion != "4":
             conexion.commit() # Guardar los cambios.
             print("%s") %(mensaje) # Imprime el mensaje segun la operacion ejecutada
         except:
-            print('\n'"*** No se a podido realizar la operacion ***")
+            print('\n'"       *** No se a podido realizar la operacion ***")
 
 conexion.close()
