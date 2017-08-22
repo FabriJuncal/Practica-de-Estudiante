@@ -5,7 +5,7 @@
 
 # Las listas son conjuntos ordenados de elementos (números, cadenas, listas, etc). 
 # Las listas se delimitan por corchetes ([ ]) y los elementos se separan por comas.
-# Las listas pueden contener elementos delmismo tipo:
+# Las listas pueden contener elementos del mismo tipo:
 
 primos = [2, 3, 5, 7, 11, 13]
 diasLaborables = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
@@ -81,7 +81,7 @@ Elemento5 = NyL[4]
 Elemento6 = NyL[5]
 
 #      NOTA
-# Se podra asignar valores mientras se declaren la misma cantidad de objetos.
+# Se podra asignar valores mientras se declaren la misma cantidad de objetos o sino saldra un error.
 
 #--------------------------------------------------------------------------------------------------------------------------------------------#
 
