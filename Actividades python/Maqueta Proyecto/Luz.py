@@ -5,11 +5,11 @@ class Luz():
     
   
   def prender(self):
-    radio.send(self.id, 1);
-      
+    #radio.send(self.id, 1);
+    return(self.id, 1)  
     
     
   def apagar(self):
-    radio.send(self.id, 0);
-   
+    #radio.send(self.id, 0);
+    return(self.id, 0)
     
