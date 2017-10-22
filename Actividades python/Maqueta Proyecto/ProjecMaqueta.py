@@ -6,9 +6,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-Luces = {} # Crear un diccionario para almacenar y hacer globales las instancias.
+Luces = {} # Se crea un diccionario para almacenar y hacer globales las instancias de Luz.
 
-servos={}# se crea dicionarios de los servos.
+servos={}# Se crea un diccionario para almacenar y hacer globales las instancias de Servo.
 
 
 #    Control de Luz
